@@ -9,7 +9,7 @@
     "restart": "pm2 restart VINER-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@distube/ytdl-core": "^4.13.5",
     "pino": "^7.0.5",
