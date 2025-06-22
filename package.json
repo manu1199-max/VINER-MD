@@ -1,12 +1,12 @@
 {
-  "name": "MD",
+  "name": "VINER-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name md",
-    "stop": "pm2 stop md",
-    "restart": "pm2 restart md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name VINER-MD",
+    "stop": "pm2 stop VINER-MD",
+    "restart": "pm2 restart VINER-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
