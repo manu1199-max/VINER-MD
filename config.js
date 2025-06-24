@@ -7,7 +7,6 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "MD=JgZxBa5B#zdzB0Ul5p2ltQ47ACHKpG3a4o7vdCvImv2h_t9j712s", // ඔයාගේ session id එක දාන්න
 MONGODB: process.env.MONGODB || "mongodb+srv://udavin56:1234@cluster0.urhma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", // ඔයාගේ mongodb url එක දාන්න
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/gLyX7vzw/jpg.jpg",
 BOT_NAME: process.env.BOT_NAME || "VINER-MD",
 LANG: process.env.BOT_LANG || 'EN' ,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
