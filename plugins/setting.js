@@ -62,9 +62,9 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 * *🔢 Reply Below This Number Change To Bot Change Setting*
 
-> *🄿🄾🅆🄴🅁🄳 🅱🆈 SULA*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴᴜᴊᴀ-ᴍᴅ🎭*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/rdl1p6.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/TD7y5sK1/jpg.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
