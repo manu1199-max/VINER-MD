@@ -1,8 +1,8 @@
 // Required Imports
 const axios = require('axios');
 const fs = require("fs");
-const config = require('../settings');
-const { cmd } = require('../lib/command');
+const config = require('../config');
+const { cmd } = require('../command');
 const {
 default: makeWASocket,
 useMultiFileAuthState,
