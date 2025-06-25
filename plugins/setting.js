@@ -64,7 +64,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 > *🄿🄾🅆🄴🅁🄳 🅱🆈 SULA*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "YOUR PHOTO URL"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/rdl1p6.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
