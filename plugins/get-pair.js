@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *NEXUS-XMD PAIRING COMPLETED*";
+        const doneMessage = "> *MANUJA-MD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
