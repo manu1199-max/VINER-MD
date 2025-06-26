@@ -73,7 +73,7 @@ _*Vishwa-Md whatsapp bot is made for your easy use. This bot is currently active
                     newsletterJid: "120363417168743361@newsletter",
                 }
             }
-        }, { quoted: Supunwa }); // Replaced 'mak' with 'mek'
+        }, { quoted: mek }); // Replaced 'mak' with 'mek'
 
     } catch (e) {
         reply('*Error !!*');
