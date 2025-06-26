@@ -15,6 +15,22 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
+        const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+ }
         if (!isGroup) return reply("This command is for groups only.");
         if (!isOwner) return reply("*_This command is for the owner only_*");
 
