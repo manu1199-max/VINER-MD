@@ -379,6 +379,22 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
+        const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+ }
         const startTime = Date.now()
         const message = await conn.sendMessage(from, { text: '*⚡  ʀᴜɴɪɴɢ ʀᴇsᴘᴏɴᴅ...*' })
         const endTime = Date.now()
@@ -401,6 +417,22 @@ cmd({
 },
 async (conn, mek, m, { from, prefix, pushname, reply }) => {
     try {
+const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+      }
         let hostname;
         if (os.hostname().length == 12) hostname = 'replit';
         else if (os.hostname().length == 36) hostname = 'heroku';
@@ -446,6 +478,22 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
+const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+ }
         // Construct the bot status message
         const botStatus = `*MANUJA-MD*
         
