@@ -15,6 +15,22 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, prefix, pushname, reply }) => {
     try {
+        const botname = "SUPUN MD"; //add your name
+ const ownername = "Supun Fernando"; // add your name
+ const Supunwa = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363270086174844@newsletter', //add your channel jid
+    newsletterName: "SUPUN MD", //add your bot name
+    caption: botname + ` Verified By ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+}
         let hostname;
         // Determine the hosting service based on the hostname length
         if (os.hostname().length == 12) hostname = 'replit';
@@ -57,7 +73,7 @@ _*Vishwa-Md whatsapp bot is made for your easy use. This bot is currently active
                     newsletterJid: "120363417168743361@newsletter",
                 }
             }
-        }, { quoted: mek }); // Replaced 'mak' with 'mek'
+        }, { quoted: Supunwa }); // Replaced 'mak' with 'mek'
 
     } catch (e) {
         reply('*Error !!*');
