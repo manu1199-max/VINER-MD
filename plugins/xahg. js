@@ -3,7 +3,6 @@ const { cmd, commands } = require("../command");
 const {
   getBuffer,
   getGroupAdmins,
-  getxxxp,
   getRandom,
   h2k,
   isUrl,
