@@ -13,6 +13,25 @@ cmd({
 
 },
 async (conn, mek, m, { from, isOwner, quoted, reply }) => {
+ 
+ const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa Kodithuwakku"; // add your name
+ const Supunwa = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Verified By ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+}
+
+
     if (!isOwner) return reply("❌ You are not the owner!");
     try {
         let desc = `* _𝑺𝑬𝑻𝑻𝑰𝑵𝑮𝑺_
@@ -64,7 +83,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴᴜᴊᴀ-ᴍᴅ🎭*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/TD7y5sK1/jpg.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/TD7y5sK1/jpg.jpg"}, caption: desc }, { quoted: Supunwa });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
