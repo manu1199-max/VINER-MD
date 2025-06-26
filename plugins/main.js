@@ -15,18 +15,18 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, prefix, pushname, reply }) => {
     try {
-        const botname = "SUPUN MD"; //add your name
- const ownername = "Supun Fernando"; // add your name
- const Supunwa = { 
+        const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
  key: { 
   remoteJid: 'status@broadcast', 
   participant: '0@s.whatsapp.net' 
    }, 
 message:{ 
   newsletterAdminInviteMessage: { 
-    newsletterJid: '120363270086174844@newsletter', //add your channel jid
-    newsletterName: "SUPUN MD", //add your bot name
-    caption: botname + ` Verified By ` + ownername, 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
     inviteExpiration: 0
   }
  }
@@ -90,7 +90,25 @@ cmd({
     category: "main"
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
+    try{
+const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+ }
+
+
         let desc = `*👋 Hello ${pushname}*
 
 *╭─「 Vishwa Md v1 commands list🎭 」*
