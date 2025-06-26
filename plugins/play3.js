@@ -14,6 +14,22 @@ cmd({
     filename: __filename 
 }, async (conn, mek, m, { from, prefix, quoted, q, reply }) => { 
     try { 
+        const botname = "MANUJA-MD"; //add your name
+ const ownername = "Vishwa kodithuwakku"; // add your name
+ const mek = { 
+ key: { 
+  remoteJid: 'status@broadcast', 
+  participant: '0@s.whatsapp.net' 
+   }, 
+message:{ 
+  newsletterAdminInviteMessage: { 
+    newsletterJid: '120363417168743361@newsletter', //add your channel jid
+    newsletterName: "MANUJA-MD", //add your bot name
+    caption: botname + ` Created ` + ownername, 
+    inviteExpiration: 0
+  }
+ }
+}
         if (!q) return await reply("Please provide a YouTube URL or song name.");
         
         const yt = await ytsearch(q);
