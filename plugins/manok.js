@@ -26,7 +26,7 @@ cmd({
     const songUrl = songData.url;
     
 
-  const jid = "120363389486431984@newsletter";
+  const jid = "120363417168743361@newsletter";
   
     // Using denethdev-ytmp3 to fetch the download link
     const result = await ddownr.download(songUrl, 'mp3'); // Download in mp3 format
