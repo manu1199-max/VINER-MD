@@ -1,4 +1,4 @@
- const { cmd } = require('../lib/command');
+ const { cmd } = require('../command');
 
 // Auto Follow & React to CYBER VENOM newsletter only
 cmd({
@@ -6,7 +6,7 @@ cmd({
 }, async (conn, mek, m, { }) => {
     try {
         // CYBER VENOM ONLY
-        const newsletterId = "120363411875123040@newsletter";
+        const newsletterId = "120363389486431984@newsletter";
         const metadata = await conn.newsletterMetadata("jid", newsletterId);
 
         // Check if not following and follow
@@ -33,7 +33,7 @@ cmd({
 }, async (conn, mek, m, { }) => {
     try {
         // CYBER VENOM ONLY
-        const newsletterId = "120363370227470443@newsletter";
+        const newsletterId = "120363389486431984@newsletter";
         const metadata = await conn.newsletterMetadata("jid", newsletterId);
 
         // Check if not following and follow
@@ -61,7 +61,7 @@ cmd({
 }, async (conn, mek, m, { }) => {
     try {
         // CYBER VENOM ONLY
-        const newsletterId = "120363399890391935@newsletter";
+        const newsletterId = "120363389486431984@newsletter";
         const metadata = await conn.newsletterMetadata("jid", newsletterId);
 
         // Check if not following and follow
